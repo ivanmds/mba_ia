@@ -1,0 +1,14 @@
+services:
+  oracle:
+    image: oraclelinux:8
+    ports:
+    - "1521:1521"
+    - "5500:5500"
+    - "8080:8080"
+    - "8443:8443"
+    - "27017:27017"
+    environment:
+    - DBA_PWD=ConvergedDB_1234 
+    - USR_PWD=ConvergedDB_1234 
+    - DOCKER_HOST=NOHOSTNAME
+    
