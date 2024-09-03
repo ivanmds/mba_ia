@@ -16,6 +16,6 @@ matrix covariancia e matrix de correlação
 respostas)
 1 a
 2 b
-3 d x,
+3 d x, c
 4 b
-5 d x,
+5 d x, c
